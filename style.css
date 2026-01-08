@@ -352,6 +352,7 @@ select {
 #donate {
     margin-top: 80px;
 }
+
 #donate-heading h2 {
     color: rgba(14, 14, 14, 1);
     font-size: 40px;
@@ -399,9 +400,11 @@ select {
     font-weight: 400;
     text-align: center;
 }
+
 #donate-btn {
     text-align: center;
 }
+
 #donate-btn button {
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
@@ -410,4 +413,53 @@ select {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: 600;
+}
+
+#subscribe {
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    padding: 80px 100px 80px 100px;
+    margin-top: 80px;
+}
+
+#subscribe-container h2 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#subscribe-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#search-bar {
+    position: relative;
+    left: 25%;
+    margin-top: 24px;
+}
+#search-bar input[type="email"] {
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(255, 255, 255, 1);
+    padding: 18px 100px 17px 20px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#search-bar button {
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    padding: 16px 34px 16px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
 }
