@@ -209,3 +209,61 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
+
+#opinion {
+    margin-top: 80px;
+}
+
+#opinion-heading h2 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#opinion-box {
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 24px;
+}
+
+.opinion-card {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion-card-1 {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+}
+
+.opinion-card-1 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
+}
+.opinion-card-common {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-card-common h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 14px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.motamot {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+select {
+    padding: 10px 14px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
