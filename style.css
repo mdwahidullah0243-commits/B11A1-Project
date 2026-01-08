@@ -273,6 +273,7 @@ select {
 #news {
     margin-top: 80px;
 }
+
 #news-heading h2 {
     color: rgba(14, 14, 14, 1);
     font-size: 40px;
@@ -346,4 +347,67 @@ select {
     font-size: 18px;
     font-weight: 600;
     margin-top: 32px;
+}
+
+#donate {
+    margin-top: 80px;
+}
+#donate-heading h2 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#donate-heading p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#price-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 50px;
+}
+
+.price-card {
+    padding: 35px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 33px;
+    font-weight: 700;
+}
+
+#some-text {
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    padding: 20px 40px 20px 40px;
+    margin: 32px 50px;
+}
+
+#some-text p {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+#donate-btn {
+    text-align: center;
+}
+#donate-btn button {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    padding: 17px 34px 17px 34px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
 }
