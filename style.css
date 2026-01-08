@@ -80,10 +80,13 @@ nav {
     /* border: 1px solid black; */
     margin-top: 80px;
 }
+
 #pillar h2 {
     font-size: 40px;
     font-weight: bold;
+    color: rgba(14, 14, 14, 1);
 }
+
 #pillar-box {
     display: flex;
     justify-content: space-between;
@@ -91,22 +94,118 @@ nav {
     gap: 24px;
     margin-top: 32px;
 }
+
 .pillar-card {
     background-color: #FFFFFF;
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.pillar-card h3 {
+
+.pillar-card h3,
+.vision-card h3 {
     color: #0E0E0E;
     font-size: 20px;
     font-weight: bold;
     margin-top: 24px;
 }
-.pillar-card p {
+
+.pillar-card p,
+.vision-card p {
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
     margin-top: 12px;
+}
+
+#vision {
+    /* border: 1px solid black; */
+    margin-top: 80px;
+}
+
+#vision-heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+
+#vision-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+#vision-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.vision-card {
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.v-card-2 {
+    background: rgba(198, 228, 214, 1);
+}
+
+.v-card-3 {
+    background: rgba(247, 235, 207, 1);
+}
+
+.vision-btn button {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.v-btn-2 button {
+    background-color: #09A15C;
+}
+
+.v-btn-3 button {
+    background-color: #FFC239;
+}
+
+#vision-footer {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    padding: 48px 24px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    margin-top: 32px;
+}
+
+#vision-footer p:first-child {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#vision-footer h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+#vision-footer p:last-child {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
