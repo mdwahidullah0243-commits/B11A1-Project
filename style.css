@@ -443,6 +443,7 @@ select {
     left: 25%;
     margin-top: 24px;
 }
+
 #search-bar input[type="email"] {
     border: none;
     border-radius: 8px 0px 0px 8px;
@@ -462,4 +463,24 @@ select {
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
     position: absolute;
+}
+
+#b-version {
+    background: rgba(255, 255, 255, 1);
+    padding: 50px 160px 50px 160px;
+    margin-top: 80px;
+}
+
+#b-version h2 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#social-media {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    margin-top: 64px;
 }
